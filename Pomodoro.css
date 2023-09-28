@@ -1,0 +1,99 @@
+/*javascriptpro_*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}  
+
+body{
+background:#282828;  
+font-family: 'poppins', sans-serif;
+}
+
+.container{
+padding:20px;   
+width:370px;
+background:#464646;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+border-radius:5px;
+}
+
+.container .mode-btns-box{
+height:60px;   
+width:100%;
+display:flex;
+align-items:center;
+}
+
+.container .mode-btns-box button{
+all:unset; 
+height:40px;
+width:90px;
+white-space:nowrap;
+background:dimgrey;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:3px;
+font-size:11px;
+margin-left:9px;
+cursor:pointer;
+}
+
+.container .mode-btns-box .btn-focus{
+background:#D14625;       
+}
+
+.container h1{
+text-align:center;
+font-size:80px;
+color:white;
+margin-top:10px;
+letter-spacing:2px;
+}
+
+.container .btns{
+height:60px;        
+width:100%;
+display:flex;
+align-items:center;
+}
+
+.container .btns button{
+all:unset;       
+height:40px;
+width:100px;
+background:white;
+color:black;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-left:33px;
+border-radius:3px;
+cursor:pointer;
+text-align:center;
+background:white;
+color:#D14625;
+font-size:14px;
+}
+
+.container .btns .start-btn{
+position:absolute;       
+left:41%;
+transform:translate(-50%,-50%);
+margin-top:40px;
+}
+
+.container .btns .reset-btn,.container .btns .pause-btn{
+display:none;        
+}
+
+::selection{
+background:rgb(100, 149, 237,0.8); 
+color:white;
+}
